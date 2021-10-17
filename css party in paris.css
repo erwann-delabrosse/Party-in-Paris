@@ -1,0 +1,65 @@
+/* Colors and fonts */
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #FFB536;
+    color: #000000;
+}
+.content-footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    padding: 50px 0 100px;
+}
+
+.bloc {
+    flex-basis: 20%;
+    margin: 0 30px;
+}
+
+/* description */
+.footer-description h3,
+.footer-eventsinparis h3,
+.footer-aboutus h3,
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-eventsinparis p {
+    padding: 5px 0;
+}
+
+/* Description */
+
+
+.aboutus-list {
+    list-style-type: none;
+}
+.aboutus-list li {
+    padding: 2px 0;
+}
+.aboutus-list a {
+    text-decoration: none;
+    color: #333;
+}
+.aboutus-list a:hover {
+    color: rgb(3,3,3);
+}
+
+
+
+
+
